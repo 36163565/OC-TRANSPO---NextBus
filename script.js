@@ -103,6 +103,7 @@
           };
 
           xhr.onerror = function() {
+            $("#stopName").append('<span class="label label-info stop"> Please Add CORS extension to have this App work ! SORRY</span>');  
             console.log('Woops, there was an error making the request.');
           };
 
